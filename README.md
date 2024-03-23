@@ -91,3 +91,6 @@ Create a measure named Total Cancelled Bookings using the following DAX formula:
 
 Total Cancelled Bookings = CALCULATE(COUNTROWS(fact_bookings), fact_bookings[booking_status] = "Cancelled")
 This measure counts the number of rows (bookings) in the fact_bookings table where the booking_status is "Cancelled".
+
+## Visulization Dashboard
+![alt text](dashboard.png)
